@@ -1,5 +1,5 @@
 {
-    "printWidth": 80,
+    "printWidth": 100,
     "tabWidth": 2,
     "useTabs": false,
     "semi": true,
@@ -15,5 +15,13 @@
     "proseWrap": "preserve",
     "htmlWhitespaceSensitivity": "css",
     "vueIndentScriptAndStyle": false,
-    "endOfLine": "auto"
+    "endOfLine": "auto",
+    "overrides": [
+        {
+            "files": "*.tsx",
+            "options": {
+                "singleQuote": false
+            }
+        }
+    ]
 }
